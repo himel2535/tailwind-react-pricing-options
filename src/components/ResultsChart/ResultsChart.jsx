@@ -1,8 +1,9 @@
-import React, { use } from "react";
+// import React, { use } from "react";
 import { Line, LineChart, Tooltip, XAxis, YAxis } from "recharts";
 
-const ResultsChart = ({ resultData }) => {
-    const result=use(resultData)
+const ResultsChart = ({ result }) => {
+    // const resultRes=use(resultData);
+    // const result=resultRes.data
 
   
   return (

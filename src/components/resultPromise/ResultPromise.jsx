@@ -1,16 +1,32 @@
-import React, { use } from 'react';
-import ResultsChart from '../ResultsChart/ResultsChart';
+import React, { use } from "react";
+import ResultsChart from "../ResultsChart/ResultsChart";
 
-const ResultPromise = ({resultData}) => {
-    const results=use(resultData)
+const ResultPromise = ({ resultData }) => {
+  const resultsPromise = use(resultData);
+  const results = resultsPromise.data;
 
-    return (
-        <div>
-            {
-                results.map(result=> <ResultsChart key={result.id} result={result}></ResultsChart>)
-            }
-        </div>
-    );
+  const marksChartData = results.map((studentData) => {
+    const student = {
+      id: studentData.id,
+      name: studentData.name,
+      phy: studentData.marks.physics,
+      che: studentData.marks.chemistry,
+      math: studentData.marks.math,
+      bio: studentData.marks.biology,
+    };
+
+    const avg = (student.phy + student.che + student.bio + student.math) / 4;
+    student.avg = avg;
+
+    return student;
+  });
+  console.log(marksChartData);
+
+  return(
+    <div>
+        
+    </div>
+  )
 };
 
 export default ResultPromise;

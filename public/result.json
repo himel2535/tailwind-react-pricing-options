@@ -2,81 +2,51 @@
   {
     "id": 1,
     "name": "Alice",
-    "chemistry": 85,
-    "physics": 78,
-    "math": 92,
-    "biology": 88
+    "marks": { "chemistry": 85, "physics": 78, "math": 92, "biology": 88 }
   },
   {
     "id": 2,
     "name": "Bob",
-    "chemistry": 72,
-    "physics": 81,
-    "math": 75,
-    "biology": 79
+    "marks": { "chemistry": 72, "physics": 81, "math": 75, "biology": 79 }
   },
   {
     "id": 3,
     "name": "Charlie",
-    "chemistry": 90,
-    "physics": 88,
-    "math": 95,
-    "biology": 92
+    "marks": { "chemistry": 90, "physics": 88, "math": 95, "biology": 92 }
   },
   {
     "id": 4,
     "name": "David",
-    "chemistry": 65,
-    "physics": 70,
-    "math": 68,
-    "biology": 72
+    "marks": { "chemistry": 65, "physics": 70, "math": 68, "biology": 72 }
   },
   {
     "id": 5,
     "name": "Eva",
-    "chemistry": 88,
-    "physics": 92,
-    "math": 85,
-    "biology": 90
+    "marks": { "chemistry": 88, "physics": 92, "math": 85, "biology": 90 }
   },
   {
     "id": 6,
     "name": "Frank",
-    "chemistry": 76,
-    "physics": 69,
-    "math": 80,
-    "biology": 74
+    "marks": { "chemistry": 76, "physics": 69, "math": 80, "biology": 74 }
   },
   {
     "id": 7,
     "name": "Grace",
-    "chemistry": 95,
-    "physics": 94,
-    "math": 98,
-    "biology": 96
+    "marks": { "chemistry": 95, "physics": 94, "math": 98, "biology": 96 }
   },
   {
     "id": 8,
     "name": "Hannah",
-    "chemistry": 82,
-    "physics": 77,
-    "math": 84,
-    "biology": 80
+    "marks": { "chemistry": 82, "physics": 77, "math": 84, "biology": 80 }
   },
   {
     "id": 9,
     "name": "Ian",
-    "chemistry": 70,
-    "physics": 65,
-    "math": 72,
-    "biology": 68
+    "marks": { "chemistry": 70, "physics": 65, "math": 72, "biology": 68 }
   },
   {
     "id": 10,
     "name": "Julia",
-    "chemistry": 89,
-    "physics": 85,
-    "math": 90,
-    "biology": 87
+    "marks": { "chemistry": 89, "physics": 85, "math": 90, "biology": 87 }
   }
 ]
