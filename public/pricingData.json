@@ -2,9 +2,8 @@
   {
     "id": 1,
     "title": "Basic Plan",
-    "price": 29,
+    "price": "$29/month",
     "billing_cycle": "monthly",
-    "currency": "USD",
     "description": "Perfect for beginners who want access to essential gym facilities.",
     "features": [
       "Access to all gym equipment",
@@ -24,9 +23,8 @@
   {
     "id": 2,
     "title": "Standard Plan",
-    "price": 49,
+    "price": "$49/month",
     "billing_cycle": "monthly",
-    "currency": "USD",
     "description": "Best for regular gym-goers who want extra perks and flexibility.",
     "features": [
       "24/7 unlimited gym access",
@@ -47,9 +45,8 @@
   {
     "id": 3,
     "title": "Premium Plan",
-    "price": 79,
+    "price": "$79/month",
     "billing_cycle": "monthly",
-    "currency": "USD",
     "description": "Ideal for those who want the full fitness & wellness experience.",
     "features": [
       "All Standard Plan features",
