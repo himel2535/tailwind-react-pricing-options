@@ -11,7 +11,7 @@ function App() {
       
       <header>
         <Navbar></Navbar>
-        <Daisynav></Daisynav>
+        {/* <Daisynav></Daisynav> */}
       </header>
 
     </>

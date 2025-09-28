@@ -1,0 +1,71 @@
+[
+  {
+    "id": 1,
+    "title": "Basic Plan",
+    "price": 29,
+    "billing_cycle": "monthly",
+    "currency": "USD",
+    "description": "Perfect for beginners who want access to essential gym facilities.",
+    "features": [
+      "Access to all gym equipment",
+      "Locker room & shower access",
+      "1 free fitness assessment",
+      "Open gym during staffed hours",
+      "Free Wi-Fi",
+      "Access to cardio zone"
+    ],
+    "guest_passes": 1,
+    "support": "Email support only",
+    "access_hours": "Mon-Fri (8AM - 8PM)",
+    "contract": "No long-term contract",
+    "popular": false,
+    "badge": "Starter"
+  },
+  {
+    "id": 2,
+    "title": "Standard Plan",
+    "price": 49,
+    "billing_cycle": "monthly",
+    "currency": "USD",
+    "description": "Best for regular gym-goers who want extra perks and flexibility.",
+    "features": [
+      "24/7 unlimited gym access",
+      "Group fitness classes included",
+      "2 free personal training sessions",
+      "Sauna & steam room access",
+      "Discounts on supplements & merchandise",
+      "Free fitness tracking app access",
+      "Priority booking for classes"
+    ],
+    "guest_passes": 5,
+    "support": "Phone & email support",
+    "access_hours": "24/7",
+    "contract": "3-month commitment",
+    "popular": true,
+    "badge": "Most Popular"
+  },
+  {
+    "id": 3,
+    "title": "Premium Plan",
+    "price": 79,
+    "billing_cycle": "monthly",
+    "currency": "USD",
+    "description": "Ideal for those who want the full fitness & wellness experience.",
+    "features": [
+      "All Standard Plan features",
+      "Unlimited personal training",
+      "1 monthly massage session",
+      "Nutrition & meal planning consultation",
+      "Exclusive VIP lounge access",
+      "Dedicated locker",
+      "Free smoothie after every workout",
+      "Early access to new classes"
+    ],
+    "guest_passes": 10,
+    "support": "Priority phone, email & chat support",
+    "access_hours": "24/7",
+    "contract": "6-month commitment",
+    "popular": false,
+    "badge": "Premium"
+  }
+]
